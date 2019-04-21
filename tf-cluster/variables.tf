@@ -32,6 +32,8 @@ variable "cluster_name" {
   default     = "ace_cluster"
 }
 
+variable "kubernetes_version" {}
+
 variable "ssh_public_key" {
   description = "Public SSH key to distribute to images"
 }

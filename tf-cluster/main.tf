@@ -19,7 +19,7 @@ module "aks" {
   rbac_server_app_secret = "${var.aks_rbac_server_app_secret}"
   rbac_client_app_id     = "${var.aks_rbac_client_app_id}"
 
-  k8s_version = "1.12.7"
+  k8s_version = "${var.kubernetes_version}"
 
   aks_docker_bridge_cidr = "172.17.0.1/16"
   aks_pod_cidr           = "${var.aks_pod_cidr}"

@@ -4,3 +4,5 @@ aks_node_cidr = "10.100.16.0/24"
 aks_dns_service_ip = "10.100.0.4"
 dns_prefix = "kubedb-test"
 resourcegroup_name = "kubedb-test"
+
+kubernetes_version = "1.12.7"
